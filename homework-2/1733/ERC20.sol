@@ -6,7 +6,8 @@ interface IERC20 {
     event Approval(
         address indexed owner,
         address indexed spender,
-        uint256 value
+        uint256 value,
+        uint256 tes1
     );
     function totalSupply() external view returns (uint256);
     function balanceOf(address account) external view returns (uint256);
